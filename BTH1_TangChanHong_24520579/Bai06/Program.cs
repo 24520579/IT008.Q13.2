@@ -120,7 +120,7 @@ namespace Bai06
                 for (int j = 0; j < m; j++)
                     if (getMax(n, m, matrix) == matrix[i, j]) vt = m;
 
-            if (getMaxValuem(n, m, matrix) == m)
+            if(vt==m)
                 m--;
             else
             {
