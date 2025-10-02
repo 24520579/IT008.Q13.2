@@ -115,7 +115,7 @@ namespace Bai06
         }
         static void XoaCotLonNhat(int n, ref int m, int[,] matrix)
         {
-            int vt;
+            int vt=0;
             for (int i = 0; i < n; i++)
                 for (int j = 0; j < m; j++)
                     if (getMax(n, m, matrix) == matrix[i, j]) vt = m;
