@@ -1,17 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Bai01
 {
     internal class Program
     {
-        static void TaoMang(int[]a , int n)
+        static void TaoMang(int[] a, int n)
         {
             Random rand = new Random();
-            for(int i=0;i<n;i++) a[i] = rand.Next(0, 100);
+            for (int i = 0; i < n; i++) a[i] = rand.Next(0, 100);
         }
         static void Main(string[] args)
         {
@@ -29,7 +25,7 @@ namespace Bai01
 
             int check = SoCPNhoNhat(a, n);
             if (check == -1) Console.WriteLine("Khong co so chinh phuong");
-            else Console.WriteLine("So chinh phuong nho nhat: "+ check);
+            else Console.WriteLine("So chinh phuong nho nhat: " + check);
             Console.ReadLine();
         }
         static int TongLe(int[] a, int n)
@@ -44,7 +40,7 @@ namespace Bai01
             for (int i = 2; i <= Math.Sqrt(x); i++) if (x % i == 0) return false;
             return true;
         }
-        static int DemNT(int[]a, int n)
+        static int DemNT(int[] a, int n)
         {
             int dem = 0;
             for (int i = 0; i < n; i++) if (CheckNT(a[i])) dem++;
@@ -54,14 +50,14 @@ namespace Bai01
         {
             if (x < 0) return false;
             int temp = (int)Math.Sqrt(x);
-            return temp*temp == x;
+            return temp * temp == x;
         }
-        static int SoCPNhoNhat(int[]a, int n)
+        static int SoCPNhoNhat(int[] a, int n)
         {
             int? temp = null;
-            for (int i = 0;i<n;i++) if (checkCP(a[i])) if (temp == null || temp > a[i]) 
+            for (int i = 0; i < n; i++) if (checkCP(a[i])) if (temp == null || temp > a[i])
                         temp = a[i];
-            return temp??-1;
+            return temp ?? -1;
         }
     }
 }

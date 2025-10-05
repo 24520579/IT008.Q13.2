@@ -36,6 +36,7 @@ namespace Bai04
                     Console.WriteLine("Thang " + thang + " nam " + nam + " co " + DateTime.DaysInMonth(nam, thang) + " ngay");
                 }
                 else Console.WriteLine("Nam thang khong hop le, nhap lai");
+                Console.ReadKey();
             } while (check == false);
         }
     }
