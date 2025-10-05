@@ -19,43 +19,18 @@ namespace Bai01
             int n = int.Parse(Console.ReadLine());
             int[] a = new int[n];
             TaoMang(a, n);
-            int tmp;
-            do
-            {
-                Console.Clear();
-                Console.Write("Mang vua tao: ");
-                Console.WriteLine(string.Join(" ", a));
-                Console.WriteLine("----------------------------------");
-                Console.WriteLine("1. Tong cac so le");
-                Console.WriteLine("2. Dem so nguyen to");
-                Console.WriteLine("3. So chinh phuong nho nhat");
-                Console.WriteLine("0. Thoat");
-                Console.Write("Nhap lua chon: ");
-                tmp = int.Parse(Console.ReadLine());
-                switch (tmp)
-                {
-                    case 1:
-                        {
-                            Console.Write("Tong cac so le: ");
-                            Console.WriteLine(TongLe(a, n));
-                            break;
-                        }
-                    case 2:
-                        {
-                            Console.Write("So nguyen to trong mang: ");
-                            Console.WriteLine(DemNT(a, n));
-                            break;
-                        }
-                    case 3:
-                        {
-                            int check = SoCPNhoNhat(a, n);
-                            if (check == -1) Console.WriteLine("Khong co so chinh phuong");
-                            else Console.WriteLine("So chinh phuong nho nhat: ", check);
-                            break;
-                        }
-                }
-                Console.ReadLine();
-            } while (tmp != 0);
+            Console.Write("Mang vua tao: ");
+            Console.WriteLine(string.Join(" ", a));
+            Console.WriteLine("----------------------------------");
+            Console.Write("Tong cac so le: ");
+            Console.WriteLine(TongLe(a, n));
+            Console.Write("So nguyen to trong mang: ");
+            Console.WriteLine(DemNT(a, n));
+
+            int check = SoCPNhoNhat(a, n);
+            if (check == -1) Console.WriteLine("Khong co so chinh phuong");
+            else Console.WriteLine("So chinh phuong nho nhat: "+ check);
+            Console.ReadLine();
         }
         static int TongLe(int[] a, int n)
         {
