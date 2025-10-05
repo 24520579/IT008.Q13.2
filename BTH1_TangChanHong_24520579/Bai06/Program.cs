@@ -12,6 +12,7 @@ namespace Bai06
     {
         static void XuatMaTran(int n, int m, int[,] matrix)
         {
+            Console.WriteLine();
             for (int i = 0; i < n; i++)
             {
                 for (int j = 0; j < m; j++)
@@ -27,6 +28,7 @@ namespace Bai06
                 for (int j = 0; j < m; j++)
                     matrix[i, j] = random.Next(0, 100);
         }
+
         static void Main(string[] args)
         {
             Console.Write("So dong n: ");
@@ -66,6 +68,7 @@ namespace Bai06
             int temp = 0, tong=0, vt=0;
             for(int i=0;i<n;i++)
             {
+                temp = 0;
                 for (int j = 0; j < m; j++) temp += matrix[i, j];
                 if (temp > tong)
                 {
@@ -104,25 +107,29 @@ namespace Bai06
         }
         static void XoaCotLonNhat(int n, ref int m, ref int[,] matrix)
         {
-            int vt=0;int temp = getMax(n, m, matrix);
-            for (int i = 0; i < n; i++)
-                for (int j = 0; j < m; j++)
-                    if (temp == matrix[i, j]) vt = j;
+            int max = getMax(n, m, matrix);
+            bool[] xoa = new bool[m];
+            for (int j = 0; j < m; j++)
+                for (int i = 0; i < n; i++)
+                    if (matrix[i, j] == max)
+                    {
+                        xoa[j] = true;
+                        break;
+                    }
 
-            if(vt==m)
-                m--;
-            else
+            int newM = 0;
+            for (int j = 0; j < m; j++)
             {
-                int maxTemp = getMax(n, m, matrix);
-                while (maxTemp == getMax(n, m, matrix))
+                if (!xoa[j])
                 {
-                    for (int i = vt; i < m - 1; i++)
-                        for (int j = 0; j < n; j++)
-                            matrix[j, i] = matrix[j, i + 1];
-                    m--;
+                    for (int i = 0; i < n; i++)
+                        matrix[i, newM] = matrix[i, j];
+                    newM++;
                 }
             }
-            XuatMaTran(n,m,matrix);
+
+            m = newM;
+            XuatMaTran(n, m, matrix);
         }
     }
 }
