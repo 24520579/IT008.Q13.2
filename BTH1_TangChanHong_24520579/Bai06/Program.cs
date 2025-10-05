@@ -21,7 +21,7 @@ namespace Bai06
         }
         static void TaoMaTran(int n, int m, int[,] matrix)
         {
-            Console.Clear();
+            //Console.Clear();
             Random random = new Random();
             for (int i = 0; i < n; i++)
                 for (int j = 0; j < m; j++)
@@ -32,31 +32,20 @@ namespace Bai06
             Console.Write("So dong n: ");
             int n = int.Parse(Console.ReadLine());
             Console.Write("So cot m: ");
-            int m=int.Parse(Console.ReadLine());
+            int m = int.Parse(Console.ReadLine());
             int[,] matrix = new int[n, m];
             TaoMaTran(n, m, matrix);
-            bool check = false;
-            do
-            {
-                Console.Clear();
-                XuatMaTran(n, m, matrix);
-                Console.WriteLine();
-                Console.WriteLine("---------------------------");
-                Console.WriteLine("1. Phan tu lon nhat, nho nhat");
-                Console.WriteLine("2. Dong co tong lon nhat");
-                Console.WriteLine("3. Tinh tong cac so khong phai so nguyen to");
-                Console.WriteLine("4. Xoa dong thu k");
-                Console.WriteLine("5. Xoa cot chua phan tu lon nhat");
-                Console.WriteLine("0. Thoat");
-                Console.Write("Nhap lua chon: ");
-                int temp=int.Parse(Console.ReadLine());
-                if (temp == 0) check = true;
-                //else switch (temp)
-                //    {
-                //        case 
-                //    }
-            } while (check == false);
-            Console.ReadKey();
+            XuatMaTran(n, m, matrix);
+            Console.WriteLine("---------------------------");
+            Console.WriteLine("Phan tu lon nhat: " + getMax(n, m, matrix));
+            Console.WriteLine("Phan tu nho nhat: " + getMin(n, m, matrix));
+            Console.WriteLine("Dong co tong lon nhat:");
+            DongLonNhat(n, m, matrix);
+            Console.WriteLine();
+            TongNotNT(n, m, matrix);
+            XoaDong(ref n, m, ref matrix);
+            Console.WriteLine("Ma tran sau khi xoa cot co phan tu lon nhat:");
+            XoaCotLonNhat(n, ref m, ref matrix);
         }
         static int getMin(int n, int m, int[,]matrix)
         {
@@ -69,10 +58,10 @@ namespace Bai06
         {
             int maxx = matrix[0, 0];
             for (int i = 0; i < n; i++)
-                for (int j = 0; j < m; j++) if (maxx > matrix[i, j]) maxx = matrix[i, j];
+                for (int j = 0; j < m; j++) if (maxx < matrix[i, j]) maxx = matrix[i, j];
             return maxx;
         }
-        static int DongLonNhat(int n, int m, int[,] matrix)
+        static void DongLonNhat(int n, int m, int[,] matrix)
         {
             int temp = 0, tong=0, vt=0;
             for(int i=0;i<n;i++)
@@ -84,7 +73,7 @@ namespace Bai06
                     vt = i;
                 }
             }
-            return vt;
+            for(int i=0;i<m;i++) Console.Write(matrix[vt,i]+" ");
         }
         static bool CheckNT(int x)
         {
@@ -99,10 +88,10 @@ namespace Bai06
                 for(int j = 0;j<m;j++) if(CheckNT(matrix[i,j])==false) tong += matrix[i,j];
             Console.WriteLine("Tong cac so khong phai so nguyen to: " + tong);
         }
-        static void XoaDong(ref int n, int m, int[,]matrix)
+        static void XoaDong(ref int n, int m, ref int[,]matrix)
         {
             Console.Write("Xoa dong: ");
-            int k = int.Parse(Console.ReadLine());
+            int k = int.Parse(Console.ReadLine())-1;
             if (k == n) n--;
             else
             {
@@ -113,12 +102,12 @@ namespace Bai06
             }
             XuatMaTran(n, m, matrix);
         }
-        static void XoaCotLonNhat(int n, ref int m, int[,] matrix)
+        static void XoaCotLonNhat(int n, ref int m, ref int[,] matrix)
         {
-            int vt=0;
+            int vt=0;int temp = getMax(n, m, matrix);
             for (int i = 0; i < n; i++)
                 for (int j = 0; j < m; j++)
-                    if (getMax(n, m, matrix) == matrix[i, j]) vt = m;
+                    if (temp == matrix[i, j]) vt = j;
 
             if(vt==m)
                 m--;
@@ -127,13 +116,13 @@ namespace Bai06
                 int maxTemp = getMax(n, m, matrix);
                 while (maxTemp == getMax(n, m, matrix))
                 {
-                    for (int i = getMaxValuem(n, m, matrix); i < m - 1; i++)
+                    for (int i = vt; i < m - 1; i++)
                         for (int j = 0; j < n; j++)
                             matrix[j, i] = matrix[j, i + 1];
                     m--;
                 }
             }
-            Console.WriteLine(" Xóa hoàn tất");
+            XuatMaTran(n,m,matrix);
         }
     }
 }
