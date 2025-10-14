@@ -14,7 +14,7 @@ class Program
         int daysInMonth = DateTime.DaysInMonth(year, month);
 
         Console.Clear();
-        Console.WriteLine($"Month: {month:D2}/{year}");
+        Console.WriteLine($"Month: {month}/{year}");
         Console.WriteLine("SUN  MON  TUE  WED  THU  FRI  SAT");
 
 
