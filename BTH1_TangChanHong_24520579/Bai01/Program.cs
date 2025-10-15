@@ -11,8 +11,12 @@ namespace Bai01
         }
         static void Main(string[] args)
         {
-            Console.Write("Nhap n: ");
-            int n = int.Parse(Console.ReadLine());
+            int n;
+            do
+            {
+                Console.Write("Nhap n: ");
+                n = int.Parse(Console.ReadLine());
+            } while (n <= 0);
             int[] a = new int[n];
             TaoMang(a, n);
             Console.Write("Mang vua tao: ");
