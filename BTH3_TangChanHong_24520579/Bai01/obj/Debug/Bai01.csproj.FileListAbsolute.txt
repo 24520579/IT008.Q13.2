@@ -1,0 +1,11 @@
+D:\Data\Document\24520579\IT008_Lap_Trinh_Truc_Quan\Lab\IT008.Q13.2\BTH3_TangChanHong_24520579\Bai01\bin\Debug\Bai01.exe.config
+D:\Data\Document\24520579\IT008_Lap_Trinh_Truc_Quan\Lab\IT008.Q13.2\BTH3_TangChanHong_24520579\Bai01\bin\Debug\Bai01.exe
+D:\Data\Document\24520579\IT008_Lap_Trinh_Truc_Quan\Lab\IT008.Q13.2\BTH3_TangChanHong_24520579\Bai01\bin\Debug\Bai01.pdb
+D:\Data\Document\24520579\IT008_Lap_Trinh_Truc_Quan\Lab\IT008.Q13.2\BTH3_TangChanHong_24520579\Bai01\obj\Debug\Bai01.csproj.AssemblyReference.cache
+D:\Data\Document\24520579\IT008_Lap_Trinh_Truc_Quan\Lab\IT008.Q13.2\BTH3_TangChanHong_24520579\Bai01\obj\Debug\Bai01.Form1.resources
+D:\Data\Document\24520579\IT008_Lap_Trinh_Truc_Quan\Lab\IT008.Q13.2\BTH3_TangChanHong_24520579\Bai01\obj\Debug\Bai01.Properties.Resources.resources
+D:\Data\Document\24520579\IT008_Lap_Trinh_Truc_Quan\Lab\IT008.Q13.2\BTH3_TangChanHong_24520579\Bai01\obj\Debug\Bai01.csproj.GenerateResource.cache
+D:\Data\Document\24520579\IT008_Lap_Trinh_Truc_Quan\Lab\IT008.Q13.2\BTH3_TangChanHong_24520579\Bai01\obj\Debug\Bai01.csproj.CoreCompileInputs.cache
+D:\Data\Document\24520579\IT008_Lap_Trinh_Truc_Quan\Lab\IT008.Q13.2\BTH3_TangChanHong_24520579\Bai01\obj\Debug\Bai01.exe
+D:\Data\Document\24520579\IT008_Lap_Trinh_Truc_Quan\Lab\IT008.Q13.2\BTH3_TangChanHong_24520579\Bai01\obj\Debug\Bai01.pdb
+D:\Data\Document\24520579\IT008_Lap_Trinh_Truc_Quan\Lab\IT008.Q13.2\BTH3_TangChanHong_24520579\Bai01\obj\Debug\Bai01.exe.config
