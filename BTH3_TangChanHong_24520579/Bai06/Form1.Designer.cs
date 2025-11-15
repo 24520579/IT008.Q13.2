@@ -1,4 +1,4 @@
-﻿namespace Bai06
+namespace Bai06
 {
     partial class Form1
     {
@@ -384,6 +384,7 @@
             this.button2.TabIndex = 2;
             this.button2.Text = ".";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.btnDecimal_Click);
             // 
             // button1
             // 
@@ -401,6 +402,7 @@
             this.button1.Text = "0";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.btnNumber_Click);
+            // 
             // btnAmDuong
             // 
             this.btnAmDuong.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(65)))), ((int)(((byte)(65)))));
@@ -486,4 +488,3 @@
         private System.Windows.Forms.Label lbMem;
     }
 }
-
