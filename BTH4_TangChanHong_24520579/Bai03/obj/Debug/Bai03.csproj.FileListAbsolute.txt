@@ -1,0 +1,15 @@
+D:\24520579\IT008_Lap_Trinh_Truc_Quan\Lab\BTH4_TangChanHong_24520579\Bai03\bin\Debug\Bai03.exe.config
+D:\24520579\IT008_Lap_Trinh_Truc_Quan\Lab\BTH4_TangChanHong_24520579\Bai03\bin\Debug\Bai03.exe
+D:\24520579\IT008_Lap_Trinh_Truc_Quan\Lab\BTH4_TangChanHong_24520579\Bai03\bin\Debug\Bai03.pdb
+D:\24520579\IT008_Lap_Trinh_Truc_Quan\Lab\BTH4_TangChanHong_24520579\Bai03\bin\Debug\Interop.WMPLib.dll
+D:\24520579\IT008_Lap_Trinh_Truc_Quan\Lab\BTH4_TangChanHong_24520579\Bai03\bin\Debug\AxInterop.WMPLib.dll
+D:\24520579\IT008_Lap_Trinh_Truc_Quan\Lab\BTH4_TangChanHong_24520579\Bai03\obj\Debug\Bai03.csproj.AssemblyReference.cache
+D:\24520579\IT008_Lap_Trinh_Truc_Quan\Lab\BTH4_TangChanHong_24520579\Bai03\obj\Debug\Interop.WMPLib.dll
+D:\24520579\IT008_Lap_Trinh_Truc_Quan\Lab\BTH4_TangChanHong_24520579\Bai03\obj\Debug\AxInterop.WMPLib.dll
+D:\24520579\IT008_Lap_Trinh_Truc_Quan\Lab\BTH4_TangChanHong_24520579\Bai03\obj\Debug\Bai03.csproj.ResolveComReference.cache
+D:\24520579\IT008_Lap_Trinh_Truc_Quan\Lab\BTH4_TangChanHong_24520579\Bai03\obj\Debug\Bai03.Form1.resources
+D:\24520579\IT008_Lap_Trinh_Truc_Quan\Lab\BTH4_TangChanHong_24520579\Bai03\obj\Debug\Bai03.Properties.Resources.resources
+D:\24520579\IT008_Lap_Trinh_Truc_Quan\Lab\BTH4_TangChanHong_24520579\Bai03\obj\Debug\Bai03.csproj.GenerateResource.cache
+D:\24520579\IT008_Lap_Trinh_Truc_Quan\Lab\BTH4_TangChanHong_24520579\Bai03\obj\Debug\Bai03.csproj.CoreCompileInputs.cache
+D:\24520579\IT008_Lap_Trinh_Truc_Quan\Lab\BTH4_TangChanHong_24520579\Bai03\obj\Debug\Bai03.exe
+D:\24520579\IT008_Lap_Trinh_Truc_Quan\Lab\BTH4_TangChanHong_24520579\Bai03\obj\Debug\Bai03.pdb
