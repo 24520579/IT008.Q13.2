@@ -1,0 +1,9 @@
+D:\24520579\IT008_Lap_Trinh_Truc_Quan\Lab\BTH4_TangChanHong_24520579\Bai04\bin\ARM64\Debug\Bai04.exe.config
+D:\24520579\IT008_Lap_Trinh_Truc_Quan\Lab\BTH4_TangChanHong_24520579\Bai04\bin\ARM64\Debug\Bai04.exe
+D:\24520579\IT008_Lap_Trinh_Truc_Quan\Lab\BTH4_TangChanHong_24520579\Bai04\bin\ARM64\Debug\Bai04.pdb
+D:\24520579\IT008_Lap_Trinh_Truc_Quan\Lab\BTH4_TangChanHong_24520579\Bai04\obj\ARM64\Debug\Bai04.csproj.AssemblyReference.cache
+D:\24520579\IT008_Lap_Trinh_Truc_Quan\Lab\BTH4_TangChanHong_24520579\Bai04\obj\ARM64\Debug\Bai04.Properties.Resources.resources
+D:\24520579\IT008_Lap_Trinh_Truc_Quan\Lab\BTH4_TangChanHong_24520579\Bai04\obj\ARM64\Debug\Bai04.csproj.GenerateResource.cache
+D:\24520579\IT008_Lap_Trinh_Truc_Quan\Lab\BTH4_TangChanHong_24520579\Bai04\obj\ARM64\Debug\Bai04.csproj.CoreCompileInputs.cache
+D:\24520579\IT008_Lap_Trinh_Truc_Quan\Lab\BTH4_TangChanHong_24520579\Bai04\obj\ARM64\Debug\Bai04.exe
+D:\24520579\IT008_Lap_Trinh_Truc_Quan\Lab\BTH4_TangChanHong_24520579\Bai04\obj\ARM64\Debug\Bai04.pdb
