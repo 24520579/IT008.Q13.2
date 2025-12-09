@@ -1,0 +1,13 @@
+D:\Data\Desktop\Temp\LTTQ_Lab_5\BTH5_TangChanHong_24520579\Bai04\bin\Debug\Bai04.exe.config
+D:\Data\Desktop\Temp\LTTQ_Lab_5\BTH5_TangChanHong_24520579\Bai04\bin\Debug\Bai04.exe
+D:\Data\Desktop\Temp\LTTQ_Lab_5\BTH5_TangChanHong_24520579\Bai04\bin\Debug\Bai04.pdb
+D:\Data\Desktop\Temp\LTTQ_Lab_5\BTH5_TangChanHong_24520579\Bai04\obj\Debug\Bai04.csproj.AssemblyReference.cache
+D:\Data\Desktop\Temp\LTTQ_Lab_5\BTH5_TangChanHong_24520579\Bai04\obj\Debug\Bai04.Form1.resources
+D:\Data\Desktop\Temp\LTTQ_Lab_5\BTH5_TangChanHong_24520579\Bai04\obj\Debug\Bai04.Properties.Resources.resources
+D:\Data\Desktop\Temp\LTTQ_Lab_5\BTH5_TangChanHong_24520579\Bai04\obj\Debug\Bai04.csproj.GenerateResource.cache
+D:\Data\Desktop\Temp\LTTQ_Lab_5\BTH5_TangChanHong_24520579\Bai04\obj\Debug\Bai04.csproj.CoreCompileInputs.cache
+D:\Data\Desktop\Temp\LTTQ_Lab_5\BTH5_TangChanHong_24520579\Bai04\obj\Debug\Bai04.exe
+D:\Data\Desktop\Temp\LTTQ_Lab_5\BTH5_TangChanHong_24520579\Bai04\obj\Debug\Bai04.pdb
+D:\Data\Desktop\Temp\LTTQ_Lab_5\BTH5_TangChanHong_24520579\Bai04\bin\Debug\ComponentFactory.Krypton.Toolkit.dll
+D:\Data\Desktop\Temp\LTTQ_Lab_5\BTH5_TangChanHong_24520579\Bai04\bin\Debug\ComponentFactory.Krypton.Toolkit.pdb
+D:\Data\Desktop\Temp\LTTQ_Lab_5\BTH5_TangChanHong_24520579\Bai04\obj\Debug\Bai04.csproj.Up2Date
