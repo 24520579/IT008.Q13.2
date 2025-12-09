@@ -1,0 +1,16 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+  </Configurations>
+  <Project Path="Bai04/Bai04.csproj" Id="c4f86afb-8042-48e0-ab9f-47fa6c58a095">
+    <Platform Solution="*|x64" Project="x64" />
+  </Project>
+  <Project Path="Bai06/Bai06.csproj" Id="ccd2eb60-823f-4c3d-8fb4-767d04888f84">
+    <Platform Solution="Debug|x64" Project="x64" />
+  </Project>
+  <Project Path="Bai08/Bai08.csproj" Id="972346b0-1d6e-43e4-b240-7d6715ebc603" />
+  <Project Path="Bai09/Bai09.csproj" Id="67c731b1-3b9f-4068-95dd-fa76cfdb96d1" />
+  <Project Path="Bai10/Bai10.csproj" Id="a6104f10-971f-4473-917b-e6a7263ae54a" />
+  <Project Path="Bai11/Bai11.csproj" Id="73c33150-cc99-4296-81b1-25c789a415d6" />
+</Solution>
