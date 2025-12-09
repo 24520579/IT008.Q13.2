@@ -1,0 +1,10 @@
+D:\Data\Desktop\Bai_Tap_Dang_Lam\LTTQ_Lab_5\BTH5_TangChanHong_24520579\Bai08\bin\Debug\Bai08.exe.config
+D:\Data\Desktop\Bai_Tap_Dang_Lam\LTTQ_Lab_5\BTH5_TangChanHong_24520579\Bai08\bin\Debug\Bai08.exe
+D:\Data\Desktop\Bai_Tap_Dang_Lam\LTTQ_Lab_5\BTH5_TangChanHong_24520579\Bai08\bin\Debug\Bai08.pdb
+D:\Data\Desktop\Bai_Tap_Dang_Lam\LTTQ_Lab_5\BTH5_TangChanHong_24520579\Bai08\obj\Debug\Bai08.csproj.AssemblyReference.cache
+D:\Data\Desktop\Bai_Tap_Dang_Lam\LTTQ_Lab_5\BTH5_TangChanHong_24520579\Bai08\obj\Debug\Bai08.Properties.Resources.resources
+D:\Data\Desktop\Bai_Tap_Dang_Lam\LTTQ_Lab_5\BTH5_TangChanHong_24520579\Bai08\obj\Debug\Bai08.csproj.GenerateResource.cache
+D:\Data\Desktop\Bai_Tap_Dang_Lam\LTTQ_Lab_5\BTH5_TangChanHong_24520579\Bai08\obj\Debug\Bai08.csproj.CoreCompileInputs.cache
+D:\Data\Desktop\Bai_Tap_Dang_Lam\LTTQ_Lab_5\BTH5_TangChanHong_24520579\Bai08\obj\Debug\Bai08.exe
+D:\Data\Desktop\Bai_Tap_Dang_Lam\LTTQ_Lab_5\BTH5_TangChanHong_24520579\Bai08\obj\Debug\Bai08.pdb
+D:\Data\Desktop\Bai_Tap_Dang_Lam\LTTQ_Lab_5\BTH5_TangChanHong_24520579\Bai08\obj\Debug\Bai08.Form1.resources
